@@ -1,0 +1,21 @@
+web_socket_uri: "ws://localhost:8000/ws/connect"
+logging:
+  level:
+    root: info
+
+minio:
+  access_key_id: xx
+  secret_access_key: xx
+  bucket-name: xx
+  protocol: http
+  host: 127.0.0.1
+  port: 9010
+  mask: 127.0.0.1
+
+watchpath:
+  delay: 1
+  list:
+    - dir: "/home/ran/download/jsp-demo"
+      firstTry: true
+    - dir: "/home/ran/download/jsp-demo1"
+      firstTry: true
